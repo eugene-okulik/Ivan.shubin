@@ -15,3 +15,4 @@ print("Гипотенуза:", hypotenuse)
 print("Площадь:", area)
 
 
+
