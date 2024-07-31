@@ -16,6 +16,7 @@ def main():
     print("Разность:", diff_ab)
     print("Произведение:", prod_ab)
 
+
 if __name__ == "__main__":
     main()
 
