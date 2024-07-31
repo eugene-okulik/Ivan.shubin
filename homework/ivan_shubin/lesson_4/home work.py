@@ -73,4 +73,3 @@ my_dict['set'].remove(100)
 
 
 print("Итоговый словарь:", my_dict)
-
