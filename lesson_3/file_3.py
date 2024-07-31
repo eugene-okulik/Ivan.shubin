@@ -13,5 +13,3 @@ mean_geometric = math.sqrt(a * b)
 # Выводим результаты
 print("Среднее арифметическое:", mean_arithmetic)
 print("Среднее геометрическое:", mean_geometric)
-
-  
