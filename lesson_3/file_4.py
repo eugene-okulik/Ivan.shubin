@@ -13,3 +13,4 @@ area = 0.5 * a * b
 # Выводим результаты
 print("Гипотенуза:", hypotenuse)
 print("Площадь:", area)
+
