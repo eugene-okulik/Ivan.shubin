@@ -3,8 +3,11 @@ def fibonacci_generator():
     while True:
         yield a
         a, b = b, a + b
+
+
 # Создаем генератор
 fib_gen = fibonacci_generator()
+
 # Получаем нужные числа
 for i in range(1, 100001):
     fib_num = next(fib_gen)
