@@ -6,9 +6,11 @@ def fibonacci_generator():
 
 
 # Создаем генератор
+
 fib_gen = fibonacci_generator()
 
 # Получаем нужные числа
+
 for i in range(1, 100001):
     fib_num = next(fib_gen)
     if i in [5, 200, 1000, 100000]:
