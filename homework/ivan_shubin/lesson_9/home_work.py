@@ -35,4 +35,3 @@ print("Жаркие дни:", hot_days)
 print("Максимальная температура:", max_temp)
 print("Минимальная температура:", min_temp)
 print("Средняя температура:", round(avg_temp, 2))
-
