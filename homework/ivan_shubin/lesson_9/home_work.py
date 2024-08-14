@@ -2,10 +2,6 @@ from datetime import datetime
 
 # --- Обработка даты ---
 # Дана дата
-from datetime import datetime
-
-# --- Обработка даты ---
-# Дана дата
 date_str = "Jan 15, 2023 - 12:05:33"
 
 # Преобразование строки в объект datetime
@@ -39,3 +35,4 @@ print("Жаркие дни:", hot_days)
 print("Максимальная температура:", max_temp)
 print("Минимальная температура:", min_temp)
 print("Средняя температура:", round(avg_temp, 2))
+
