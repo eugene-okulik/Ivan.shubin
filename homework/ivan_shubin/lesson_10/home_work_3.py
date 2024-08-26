@@ -11,6 +11,7 @@ def operation_controller(func):
         return func(first, second, operation)
     return wrapper
 
+
 @operation_controller
 def calc(first, second, operation):
     if operation == '+':
@@ -21,6 +22,7 @@ def calc(first, second, operation):
         return first / second
     elif operation == '*':
         return first * second
+
 
 # Пример использования:
 first = float(input("Введите первое число: "))

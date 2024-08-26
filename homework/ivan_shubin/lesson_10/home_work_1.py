@@ -4,8 +4,10 @@ def finish_me(func):
         print("finished")  # Печать "finished" после выполнения функции
     return wrapper
 
+
 @finish_me
 def example(text):
     print(text)
+
 
 example('print me')
