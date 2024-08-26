@@ -13,6 +13,7 @@ def operation_controller(func):
     return wrapper
 
 @operation_controller
+
 def calc(first, second, operation):
 
     if operation == '+':
