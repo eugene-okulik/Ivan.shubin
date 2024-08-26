@@ -1,6 +1,5 @@
 def operation_controller(func):
     def wrapper(first, second):
-
         if first == second:
             operation = '+'
         elif first > second:
@@ -13,9 +12,7 @@ def operation_controller(func):
     return wrapper
 
 @operation_controller
-
 def calc(first, second, operation):
-
     if operation == '+':
         return first + second
     elif operation == '-':
@@ -31,3 +28,4 @@ second = float(input("Введите второе число: "))
 
 result = calc(first, second)
 print(f"Результат: {result}")
+
