@@ -1,5 +1,3 @@
-#Задание №3: Декоратор для функции calc
-
 def operation_controller(func):
     def wrapper(first, second):
         if first == second:

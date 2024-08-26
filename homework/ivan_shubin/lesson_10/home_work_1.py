@@ -1,5 +1,3 @@
-#Задание №1: Декоратор, распечатывающий "finished"
-
 def finish_me(func):
     def wrapper(*args, **kwargs):
         func(*args, **kwargs)

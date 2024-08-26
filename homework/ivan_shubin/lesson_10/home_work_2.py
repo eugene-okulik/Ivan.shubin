@@ -1,5 +1,3 @@
-#Задание №2: Декоратор для управления числом запусков функции
-
 def repeat_me(func):
     def wrapper(text, count=1):
         for _ in range(count):
