@@ -28,4 +28,3 @@ second = float(input("Введите второе число: "))
 
 result = calc(first, second)
 print(f"Результат: {result}")
-
