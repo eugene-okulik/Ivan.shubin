@@ -14,9 +14,12 @@ class Book:
     def __str__(self):
         # Формирование строки с деталями книги
         if self.reserved:
-            return f"Название: {self.title}, Автор: {self.author}, страниц: {self.pages}, материал: {self.material}, зарезервирована"
+            return (f"Название: {self.title}, Автор: {self.author}, страниц: {self.pages}, "
+                    f"материал: {self.material}, зарезервирована")
         else:
-            return f"Название: {self.title}, Автор: {self.author}, страниц: {self.pages}, материал: {self.material}"
+            return (f"Название: {self.title}, Автор: {self.author}, страниц: {self.pages}, "
+                    f"материал: {self.material}")
+
 
 # Создание экземпляров книг
 book1 = Book("Идиот", "Достоевский", 500, "978-5-17-082650-4")
@@ -33,6 +36,7 @@ books = [book1, book2, book3, book4, book5]
 for book in books:
     print(book)
 
+
 class Textbook(Book):
     def __init__(self, title, author, pages, isbn, subject, grade, has_assignments, reserved=False):
         super().__init__(title, author, pages, isbn, reserved)
@@ -42,11 +46,13 @@ class Textbook(Book):
 
     def __str__(self):
         # Формирование строки с деталями учебника
-        base_info = f"Название: {self.title}, Автор: {self.author}, страниц: {self.pages}, предмет: {self.subject}, класс: {self.grade}"
+        base_info = (f"Название: {self.title}, Автор: {self.author}, страниц: {self.pages}, "
+                     f"предмет: {self.subject}, класс: {self.grade}")
         if self.reserved:
             return base_info + ", зарезервирована"
         else:
             return base_info
+
 
 # Создание экземпляров учебников
 textbook1 = Textbook("Алгебра", "Иванов", 200, "978-5-123-45678-9", "Математика", 9, True)
