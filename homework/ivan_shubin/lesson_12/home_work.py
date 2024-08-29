@@ -1,5 +1,6 @@
 from statistics import mean
 
+
 class Flower:
     def __init__(self, name, color, stem_length, freshness, cost, lifespan):
         self.name = name
@@ -54,6 +55,7 @@ class Bouquet:
 
     def __repr__(self):
         return f"Bouquet with flowers: {', '.join([str(flower) for flower in self.flowers])}"
+
 
 # Пример использования
 
